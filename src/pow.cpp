@@ -40,12 +40,11 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     // Limit adjustment step
     int64_t nActualTimespan = pindexLast->GetBlockTime() - nFirstBlockTime;
     LogPrintf("  nActualTimespan = %d  before bounds\n", nActualTimespan);
-    if (nActualTimespan <= 0) return pindexLast->nBits;
 
-    if (nActualTimespan < params.nPowTargetSpacing/4)
-        nActualTimespan = params.nPowTargetSpacing/4;
-    if (nActualTimespan > params.nPowTargetSpacing*4)
-        nActualTimespan = params.nPowTargetSpacing*4;
+    if (nActualTimespan < params.nPowTargetSpacing/2)
+        nActualTimespan = params.nPowTargetSpacing/2;
+    if (nActualTimespan > params.nPowTargetSpacing*2)
+        nActualTimespan = params.nPowTargetSpacing*2;
 
     // Retarget
     const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
