@@ -338,6 +338,11 @@ bool static ScanHash(const CBlockHeader *pblock, uint32_t& nNonce, uint256 *phas
         // the double-SHA256 state, and compute the result.
         *phash = header.GetHash();
 
+        // Return the nonce if the hash has at least some zero bits,
+        // caller will check if it has enough to reach the target
+        if (((uint8_t*)phash)[15] == 0)
+            return true;
+
         // If nothing found after trying for a while, return -1
         if ((nNonce & 0xfff) == 0)
             return false;
