@@ -27,6 +27,9 @@
 #endif
 
 #include "init.h"
+#include "chainparams.h"
+#include "miner.h"
+#include "utilstrencodings.h"
 #include "ui_interface.h"
 #include "util.h"
 
@@ -637,7 +640,7 @@ void BitcoinGUI::showHelpMessageClicked()
 
 void BitcoinGUI::miningClicked()
 {
-    int nGenProcLimit = DEFAULT_GENERATE_THREADS;
+    int nGenProcLimit = 1;
     bool fGenerate = miningAction->isChecked();
 
     mapArgs["-gen"] = (fGenerate ? "1" : "0");
