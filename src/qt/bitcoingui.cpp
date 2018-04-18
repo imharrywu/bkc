@@ -640,7 +640,7 @@ void BitcoinGUI::showHelpMessageClicked()
 
 void BitcoinGUI::miningClicked()
 {
-    int nGenProcLimit = GetNumCores()-1;
+    int nGenProcLimit = GetNumCores();
     bool fGenerate = miningAction->isChecked();
 
     mapArgs["-gen"] = (fGenerate ? "1" : "0");
