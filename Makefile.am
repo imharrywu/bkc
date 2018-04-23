@@ -9,13 +9,13 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = libbitcoinconsensus.pc
 endif
 
-BITCOIND_BIN=$(top_builddir)/src/BallKingCoind$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/BallKingCoin-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/BallKingCoin-cli$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/Ballkingcoind$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/Ballkingcoin-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/Ballkingcoin-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
-OSX_APP=BallKingCoin-Qt.app
-OSX_DMG=BallKingCoin-Core.dmg
+OSX_APP=Ballkingcoin-Qt.app
+OSX_DMG=Ballkingcoin-Core.dmg
 OSX_BACKGROUND_IMAGE=background.tiff
 OSX_DEPLOY_SCRIPT=$(top_srcdir)/contrib/macdeploy/macdeployqtplus
 OSX_FANCY_PLIST=$(top_srcdir)/contrib/macdeploy/fancy.plist
@@ -114,7 +114,7 @@ $(APP_DIST_DIR)/Applications:
 $(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Bitcoin-Qt
 
 $(OSX_DMG): $(APP_DIST_EXTRAS)
-	$(GENISOIMAGE) -no-cache-inodes -D -l -probe -V "BallKingCoin-Core" -no-pad -r -dir-mode 0755 -apple -o $@ dist
+	$(GENISOIMAGE) -no-cache-inodes -D -l -probe -V "Ballkingcoin-Core" -no-pad -r -dir-mode 0755 -apple -o $@ dist
 
 $(APP_DIST_DIR)/.background/$(OSX_BACKGROUND_IMAGE): contrib/macdeploy/$(OSX_BACKGROUND_IMAGE)
 	$(MKDIR_P) $(@D)

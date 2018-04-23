@@ -215,7 +215,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>BallKingCoin</translation>
+        <translation>Ballkingcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Show information about Bitcoin Core</source>
-        <translation>Dangos gwybodaeth am Graidd BallKingCoin</translation>
+        <translation>Dangos gwybodaeth am Graidd Ballkingcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -255,11 +255,11 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Craidd BallKingCoin</translation>
+        <translation>Craidd Ballkingcoin</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Ynghylch Craidd BallKingCoin</translation>
+        <translation>&amp;Ynghylch Craidd Ballkingcoin</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -426,11 +426,11 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Craidd BallKingCoin</translation>
+        <translation>Craidd Ballkingcoin</translation>
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Ynghylch Craidd BallKingCoin</translation>
+        <translation>Ynghylch Craidd Ballkingcoin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -445,11 +445,11 @@
     </message>
     <message>
         <source>Welcome to Bitcoin Core.</source>
-        <translation>Croeso i Graidd BallKingCoin</translation>
+        <translation>Croeso i Graidd Ballkingcoin</translation>
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Craidd BallKingCoin</translation>
+        <translation>Craidd Ballkingcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -665,11 +665,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Craidd BallKingCoin</translation>
+        <translation>Craidd Ballkingcoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Datblygwyr Graidd BallKingCoin</translation>
+        <translation>Datblygwyr Graidd Ballkingcoin</translation>
     </message>
     <message>
         <source>[testnet]</source>

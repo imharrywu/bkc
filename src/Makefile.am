@@ -55,11 +55,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += BallKingCoind
+  bin_PROGRAMS += Ballkingcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += BallKingCoin-cli BallKingCoin-tx
+  bin_PROGRAMS += Ballkingcoin-cli Ballkingcoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -316,16 +316,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-BallKingCoind_SOURCES = bitcoind.cpp
-BallKingCoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-BallKingCoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-BallKingCoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Ballkingcoind_SOURCES = bitcoind.cpp
+Ballkingcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+Ballkingcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Ballkingcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-BallKingCoind_SOURCES += bitcoind-res.rc
+Ballkingcoind_SOURCES += bitcoind-res.rc
 endif
 
-BallKingCoind_LDADD = \
+Ballkingcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -336,51 +336,51 @@ BallKingCoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-BallKingCoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+Ballkingcoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-BallKingCoind_LDADD += libbitcoin_wallet.a
+Ballkingcoind_LDADD += libbitcoin_wallet.a
 endif
 
-BallKingCoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+Ballkingcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
 # bitcoin-cli binary #
-BallKingCoin_cli_SOURCES = bitcoin-cli.cpp
-BallKingCoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-BallKingCoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-BallKingCoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Ballkingcoin_cli_SOURCES = bitcoin-cli.cpp
+Ballkingcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+Ballkingcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Ballkingcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-BallKingCoin_cli_SOURCES += bitcoin-cli-res.rc
+Ballkingcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-BallKingCoin_cli_LDADD = \
+Ballkingcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL)
 
-BallKingCoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+Ballkingcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-BallKingCoin_tx_SOURCES = bitcoin-tx.cpp
-BallKingCoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-BallKingCoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-BallKingCoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+Ballkingcoin_tx_SOURCES = bitcoin-tx.cpp
+Ballkingcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+Ballkingcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Ballkingcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-BallKingCoin_tx_SOURCES += bitcoin-tx-res.rc
+Ballkingcoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-BallKingCoin_tx_LDADD = \
+Ballkingcoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-BallKingCoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+Ballkingcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

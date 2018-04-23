@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son as túas direccións BallKingCoin para enviar pagos. Revisa sempre a cantidade e a dirección receptora antes de enviar moedas.</translation>
+        <translation>Estas son as túas direccións Ballkingcoin para enviar pagos. Revisa sempre a cantidade e a dirección receptora antes de enviar moedas.</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son as túas direccións BallKingCoin para recibir pagos. Recoméndase empregar unha nova dirección de recepción por cada transacción.</translation>
+        <translation>Estas son as túas direccións Ballkingcoin para recibir pagos. Recoméndase empregar unha nova dirección de recepción por cada transacción.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -153,7 +153,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS BallKingCoinS&lt;/b&gt;!</translation>
+        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS BallkingcoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -275,7 +275,7 @@
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar moedas a unha dirección BallKingCoin</translation>
+        <translation>Enviar moedas a unha dirección Ballkingcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -299,7 +299,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>BallKingCoin</translation>
+        <translation>Ballkingcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -327,11 +327,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Asina mensaxes coas túas direccións BallKingCoin para probar que te pertencen</translation>
+        <translation>Asina mensaxes coas túas direccións Ballkingcoin para probar que te pertencen</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificar mensaxes para asegurar que foron asinados con direccións BallKingCoin dadas.</translation>
+        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Ballkingcoin dadas.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -351,15 +351,15 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Core de BallKingCoin</translation>
+        <translation>Core de Ballkingcoin</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e BallKingCoin: URIs)</translation>
+        <translation>Solicitar pagos (xenera códigos QR e Ballkingcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Sobre BallKingCoin Core</translation>
+        <translation>&amp;Sobre Ballkingcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -371,7 +371,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>Abrir un BallKingCoin: URI ou solicitude de pago</translation>
+        <translation>Abrir un Ballkingcoin: URI ou solicitude de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -644,7 +644,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>A dirección introducida '%1' non é unha dirección BallKingCoin válida.</translation>
+        <translation>A dirección introducida '%1' non é unha dirección Ballkingcoin válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -682,7 +682,7 @@
     <name>HelpMessageDialog</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Core de BallKingCoin</translation>
+        <translation>Core de Ballkingcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -690,7 +690,7 @@
     </message>
     <message>
         <source>About Bitcoin Core</source>
-        <translation>Sobre BallKingCoin core</translation>
+        <translation>Sobre Ballkingcoin core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -721,7 +721,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Core de BallKingCoin</translation>
+        <translation>Core de Ballkingcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -779,7 +779,7 @@
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente o porto do cliente BallKingCoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+        <translation>Abrir automáticamente o porto do cliente Ballkingcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -858,7 +858,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede BallKingCoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
+        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Ballkingcoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1313,7 +1313,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>Atención:  Enderezo BallKingCoin non válido</translation>
+        <translation>Atención:  Enderezo Ballkingcoin non válido</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1434,7 +1434,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Asina a mensaxe para probar que posees esta dirección BallKingCoin</translation>
+        <translation>Asina a mensaxe para probar que posees esta dirección Ballkingcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1454,7 +1454,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección BallKingCoin especificada</translation>
+        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Ballkingcoin especificada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1521,11 +1521,11 @@
     <name>SplashScreen</name>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Core de BallKingCoin</translation>
+        <translation>Core de Ballkingcoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Os desarrolladores de BallKingCoin Core</translation>
+        <translation>Os desarrolladores de Ballkingcoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>

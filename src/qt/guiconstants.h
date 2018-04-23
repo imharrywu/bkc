@@ -46,9 +46,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "BallKingCoin"
-#define QAPP_ORG_DOMAIN "BallKingCoin.org"
-#define QAPP_APP_NAME_DEFAULT "BallKingCoin-Qt"
-#define QAPP_APP_NAME_TESTNET "BallKingCoin-Qt-testnet"
+#define QAPP_ORG_NAME "Ballkingcoin"
+#define QAPP_ORG_DOMAIN "Ballkingcoin.org"
+#define QAPP_APP_NAME_DEFAULT "Ballkingcoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Ballkingcoin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

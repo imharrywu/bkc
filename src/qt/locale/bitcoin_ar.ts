@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات BallKingCoinS الخاصة بك.</translation>
+        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات BallkingcoinS الخاصة بك.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -367,11 +367,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>وقَع الرسائل بواسطة ال: BallKingCoin الخاص بك لإثبات امتلاكك لهم</translation>
+        <translation>وقَع الرسائل بواسطة ال: Ballkingcoin الخاص بك لإثبات امتلاكك لهم</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل BallKingCoin محدَدة</translation>
+        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Ballkingcoin محدَدة</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -395,11 +395,11 @@
     </message>
     <message>
         <source>&amp;About Bitcoin Core</source>
-        <translation>حول BallKingCoin core</translation>
+        <translation>حول Ballkingcoin core</translation>
     </message>
     <message>
         <source>Modify configuration options for Bitcoin Core</source>
-        <translation>تغيير خيارات الإعداد لأساس BallKingCoin</translation>
+        <translation>تغيير خيارات الإعداد لأساس Ballkingcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,7 +411,7 @@
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>فتح URI : BallKingCoin أو طلب دفع</translation>
+        <translation>فتح URI : Ballkingcoin أو طلب دفع</translation>
     </message>
     <message>
         <source>%1 and %2</source>

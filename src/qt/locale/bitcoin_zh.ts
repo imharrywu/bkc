@@ -105,7 +105,7 @@
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>警告：BallKingCoin地址无效</translation>
+        <translation>警告：Ballkingcoin地址无效</translation>
     </message>
     </context>
 <context>
